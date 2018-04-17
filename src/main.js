@@ -1,0 +1,11 @@
+require.config({
+	baseUrl:"src",
+	paths:{
+		"jquery":"jquery-2.1.1.min",
+		"index":"index"
+	},
+	shim:{
+		exports:"index"
+	}
+})
+require(['index'])
